@@ -1,0 +1,117 @@
+body{
+        background-color: rgb(51, 160, 118);
+    }
+
+h1{ 
+    color: white;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+h2{ 
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+    
+}
+
+h3{ 
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+
+}
+
+p{
+    font-size: 1em;
+    color: white;
+    
+    font-style:inherit
+}
+
+li{
+    font-size: 1.2em;
+    color: white;
+    font-weight: 700;
+      }
+
+span{
+        font-size: 1em;
+        color: white;
+      
+        font-style:inherit
+    }
+
+.sublistas{
+    font-size: 1em;
+    color: white;
+    font-style:inherit;
+    font-weight: 500;    
+}
+
+.productos{
+    border: 2px solid white;
+    background-color: rgb(12, 3, 129);
+    padding: 1em 1em 1em 1em;
+    border-radius: 15%;
+    transition: 1s; 
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+
+a{
+    padding: 5px;
+    color: white;
+    transition: 1s;
+    }
+
+a:hover{
+    color: red;
+    background: rgb(28, 98, 145) ;
+}
+
+.fondoencabezado{
+    background-image: url(./GOLDEN\ EXPERIENCE\ TRAVEL\ AGENCY.jpg);
+    background-position: center;
+    color: black;
+}
+
+.productos:hover{
+    background-color: rgb(130, 185, 185);
+}
+
+#imagenencabezado {
+    width: 300px;
+    margin: 2vw 40vw 2vw 40vw;        
+}
+
+#eslogan{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 1em auto 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+#cuadrodeproductos{
+    background-color: rgb(80, 72, 189);
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid rgb(80, 72, 189);
+    border-radius: 15px;
+    padding: 2%;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;    
+  
+}
